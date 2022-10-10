@@ -1,0 +1,21 @@
+/* COL STYLE */
+.col-style{
+    border: .0625rem solid white;
+    background-color: #006CFA;
+    color: white;
+    padding: .625rem;
+    text-align: center;
+    
+}
+
+.col-style-nested{
+    border: .0625rem solid #006CFA;
+    background-color: #00E165;
+    color: white;
+    padding: .3125rem;
+    text-align: center;
+}
+
+.padding{
+    padding: 20px;
+}

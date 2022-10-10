@@ -5,12 +5,18 @@
     padding: 0;
 }
 
-/* CONTAINERS */
+/* UTILITY */
+.flex{
+    display: flex;
+}
 
+/* CONTAINERS */
 .container{
     margin-left: auto;
     margin-right: auto;
     max-width: 90rem;
+    margin-bottom: .9375rem;
+    border: 1px solid red;
 }
 
 
@@ -22,39 +28,73 @@
 
 /* COLUMNS */
 .col-1{
-    width: calc(100% / 12 * 1);
+    width: calc(100% / 12 * 1); /* 1/12 */
 }
 .col-2{
-    width: calc(100% / 12 * 2);
+    width: calc(100% / 12 * 2); /* 2/12 */
 }
 .col-3{
-    width: calc(100% / 12 * 3);
+    width: calc(100% / 12 * 3); /* 3/12 */ /* 25% */
 }
 .col-4{
-    width: calc(100% / 12 * 4);
+    width: calc(100% / 12 * 4); /* 4/12 */
 }
 .col-5{
-    width: calc(100% / 12 * 5);
+    width: calc(100% / 12 * 5); /* 5/12 */
 }
 .col-6{
-    width: calc(100% / 12 * 6);
+    width: calc(100% / 12 * 6); /* 6/12 */ /* 50% */
 }
 .col-7{
-    width: calc(100% / 12 * 7);
+    width: calc(100% / 12 * 7); /* 7/12 */
 }
 .col-8{
-    width: calc(100% / 12 * 8);
+    width: calc(100% / 12 * 8); /* 8/12 */
 }
 .col-9{
-    width: calc(100% / 12 * 9);
+    width: calc(100% / 12 * 9); /* 9/12 */ /* 75% */
 }
 .col-10{
-    width: calc(100% / 12 * 10);
+    width: calc(100% / 12 * 10); /* 10/12 */
 }
 .col-11{
-    width: calc(100% / 12 * 11);
+    width: calc(100% / 12 * 11); /* 11/12 */
 }
 .col-12{
-    width: calc(100% / 12 * 12);
+    width: calc(100% / 12 * 12); /* 12/12 */ /* 100% */
 }
 
+/* OFFSETS */
+.col-1-offset{
+    margin-left: calc(100% / 12 * 1);
+}
+.col-2-offset{
+    margin-left: calc(100% / 12 * 2);
+}
+.col-3-offset{
+    margin-left: calc(100% / 12 * 3);
+}
+.col-4-offset{
+    margin-left: calc(100% / 12 * 4);
+}
+.col-5-offset{
+    margin-left: calc(100% / 12 * 5);
+}
+.col-6-offset{
+    margin-left: calc(100% / 12 * 6);
+}
+.col-7-offset{
+    margin-left: calc(100% / 12 * 7);
+}
+.col-8-offset{
+    margin-left: calc(100% / 12 * 8);
+}
+.col-9-offset{
+    margin-left: calc(100% / 12 * 9);
+}
+.col-10-offset{
+    margin-left: calc(100% / 12 * 10);
+}
+.col-11-offset{
+    margin-left: calc(100% / 12 * 11);
+}
